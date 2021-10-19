@@ -14,7 +14,7 @@ It calls Game's constructors and destructor and implements three functions:
 #include "MirrorModeGame.h"
 
 // checks number of neighbors above a cell in the grid
-int MirrorModeGame::checkAboveNeighbors(int row, int col){//FIXME: Override causes error
+int MirrorModeGame::checkAboveNeighbors(int row, int col){
     int numNeighbors = 0;
 
     //check if cell in a top corner
