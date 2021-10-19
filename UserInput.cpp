@@ -89,7 +89,6 @@ bool UserInput::isPosDouble0to1(string maybeDouble){
         if(!(isdigit(maybeDouble[i]))){//if char is not numeric run body
             if(maybeDouble[i] == '.' && decimalPoint == false){//if it is decimal point and decimal point not found yet, set decimalPoint = true
                 decimalPoint = true;
-                cout << "IN IF" << endl;
             }
             else{//return false if char is not numeric and not decimal or if multiple decimal points
                 return false;
